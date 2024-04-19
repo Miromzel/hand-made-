@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Jewelry Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Handmade Jewelry Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Магазин</a></li>
+                <li><a href="delivery.html" target="_blank">Доставка</a></li>
+                <li><a href="about.html" target="_blank">О нас</a></li>
+                <li><a href="form.html" target="_blank">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-form">
+        <form action="submit" method="post">
+            <label for="name">Имя:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <!-- <label for="product">Выберите товар:</label><br>
+            <select id="product" name="product">
+                <option value="earrings">Серьги</option>
+                <option value="necklace">Ожерелье</option>
+                <option value="bracelet">Браслет</option>
+            </select><br> -->
+
+            <!-- <label for="quantity">Количество:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" required><br> -->
+
+            <label for="message">Обращение:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Handmade Jewelry Store. All Rights Reserved.</p>
+    </footer>
